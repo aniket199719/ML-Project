@@ -1,0 +1,43 @@
+Open Anaconda CMD Prompt
+
+Change path to project folder path
+    Ex=> cd H:\Projects\ML_Project -> H:
+
+Enter "code ." to Open VS code editor in the specified path
+
+Create a virtual environment using cmd "conda create -p venv python==3.8 -y" 
+
+Activate environment using "conda activate venv/" notice the (base) goes off
+
+Intialize git repo "git init"
+
+Create "README.md" file
+    Add README file to git repo "git add README.md"
+
+Commit changes "git commit -m "first commit""
+
+Use "git status" to check the list the files from repo
+
+Do branching using "git branch -M main" 
+
+Add the origin "git remote add origin https://github.com/aniket199719/ML-Project.git"
+
+Check the sync using "git remote -v"
+
+To push data into git repo "git push -u origin main" 
+    NOTE: If doing push for the first time you will have to set "git global"using below cmds
+        $ git config --global user.name "John Doe"
+        $ git config --global user.email johndoe@example.com
+
+Create ".gitignore" file by choose python for the same file
+
+Create "setup.py" file i.e., is resposible in creating ML application as a package and deploy it
+
+CMDS Summary:
+git init
+git add README.md
+git commit -m "first commit
+git branch -M main
+git remote add origin https://github.com/aniket199719/ML-Project.git
+git remote -v
+git push -u origin main
