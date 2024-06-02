@@ -31,13 +31,27 @@ To push data into git repo "git push -u origin main"
 
 Create ".gitignore" file by choose python for the same file
 
+"__init__.py" is a file which can be used as a package and can be imported
+
 Create "setup.py" file i.e., is resposible in creating ML application as a package and deploy it
+
+Components are the modules which we are going to use in creating the project
+
+In "exception.py" import sys package (The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment. It allows operating on the interpreter as it provides access to the variables and functions that interact strongly with the interpreter.)
+
+Go through once documentation of logger and exception handling
 
 CMDS Summary:
 git init
 git add README.md
-git commit -m "first commit
+git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/aniket199719/ML-Project.git
 git remote -v
 git push -u origin main
+
+git add .
+git status
+git commit -m "desired commit name"
+git push -u origin main
+
